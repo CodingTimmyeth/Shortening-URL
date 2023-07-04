@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Shortly URL shortening API Challenge</title>
+  </head>
+  <body>
+    <header>
+      <h1>Shortly</h1>
+
+      <nav>
+        <h1>Shortly</h1>
+
+        <ul>
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Resources</li>
+        </ul>
+      </nav>
+      <div class="nav-btns">
+        <div>Login</div>
+        <button>Sign Up</button>
+      </div>
+      <div class="hamburger">
+        <i class="bx bx-menu"></i>
+        <i class="bx bx-x-circle hide"></i>
+      </div>
+      <!-- Menu Link Container -->
+
+      <div class="link-container hide">
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Resources</li>
+        <div class="separator"></div>
+        <li>Login</li>
+        <li class="signUpBtn">Sign Up</li>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="hero-image"></div>
+        <div class="hero-text">
+          <h3>More than just shorter links</h3>
+          <p>
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <button>Get Started</button>
+        </div>
+      </section>
+      <section class="input-field">
+        <form>
+          <div class="input-image"></div>
+
+          <div class="error-div">
+            <input
+              type="text"
+              placeholder="Shorten a link here..."
+              id="input-link"
+            />
+            <p id="error-msg"></p>
+          </div>
+          <button id="submitBtn">Shorten It!</button>
+        </form>
+        <div class="shorten-links-container">
+          <!-- <div class="shorten-link">
+              <div class="main-link"></div>
+              <div class="sep"></div>
+              <div class="short-link"></div>
+              <button id="copyBtn">Copy!</button>
+            </div> -->
+        </div>
+      </section>
+      <section class="stats">
+        <h2>Advanced Statistics</h2>
+        <div class="stats-p">
+          <p>
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+      </section>
+      <section class="services">
+        <div class="service-one one">
+          <div class="img-one">
+            <img
+              src="/images/icon-brand-recognition.svg"
+              alt="Brand Recognition"
+            />
+          </div>
+          <h2>Brand Recognition</h2>
+          <p>
+            Boost your brand recognition with each click. Generic links don’t
+            mean a thing. Branded links help instil confidence in your content.
+          </p>
+        </div>
+        <div class="connector"></div>
+        <div class="service-one two">
+          <div class="img-one">
+            <img
+              src="/images/icon-detailed-records.svg"
+              alt="Brand Recognition"
+            />
+          </div>
+          <h2>Detailed Records</h2>
+          <p>
+            Gain insights into who is clicking your links. Knowing when and
+            where people engage with your content helps inform better decisions.
+          </p>
+        </div>
+        <div class="connector"></div>
+        <div class="service-one three">
+          <div class="img-one">
+            <img
+              src="/images/icon-fully-customizable.svg"
+              alt="Brand Recognition"
+            />
+          </div>
+          <h2>Fully Customizable</h2>
+          <p>
+            Improve brand awareness and content discoverability through
+            customizable links, supercharging audience engagement.
+          </p>
+        </div>
+      </section>
+      <section class="last-call-to-action">
+        <div class="inner-image">
+          <div class="inner-text">
+            <h3>Boost your links today</h3>
+            <button>Get Started</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h1>Shortly</h1>
+      <div class="first">
+        <div class="title">Features</div>
+        <li>Link Shortening</li>
+        <li>Branded Links</li>
+        <li>Analytics</li>
+      </div>
+      <div class="first">
+        <div class="title">Resources</div>
+        <li>Blog</li>
+        <li>Developers</li>
+        <li>Support</li>
+      </div>
+      <div class="first">
+        <div class="title">Company</div>
+        <li>About</li>
+        <li>Our Team</li>
+        <li>Careers</li>
+        <li>Contact</li>
+      </div>
+      <ul class="social-links">
+        <li>
+          <img src="/images/icon-facebook.svg" alt="FaceBook" />
+        </li>
+        <li>
+          <img src="/images/icon-twitter.svg" alt="Twitter" />
+        </li>
+        <li>
+          <img src="/images/icon-pinterest.svg" alt="Pinterest" />
+        </li>
+        <li>
+          <img src="/images/icon-instagram.svg" alt="Instgram" />
+        </li>
+      </ul>
+    </footer>
+
+    <!-- <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </footer> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
